@@ -1,0 +1,3 @@
+pip install networkx  # Instala la biblioteca nx
+pip install numpy  # Instala la biblioteca np
+pip install regex  # Instala la biblioteca re (alternativa a la biblioteca re)

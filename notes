@@ -28,3 +28,21 @@ if __name__ == "__main__":
         prompt(user_input)
         for message in chat.history:
             print(f'**{message.role}**: {message.parts[0].text}')
+
+
+# <!DOCTYPE html>
+# <html>
+# <head>
+#     <title>Chatbot</title>
+# </head>
+# <body>
+#     <form method="POST" enctype="multipart/form-data">
+#         <input type="file" name="pdf" accept=".pdf">
+#         <input type="text" name="question" placeholder="Escribe tu pregunta aquí...">
+#         <input type="submit" value="Enviar">
+#     </form>
+#     {% if answer %}
+#     <p>Respuesta: {{ answer }}</p>
+#     {% endif %}
+# </body>
+# </html>
